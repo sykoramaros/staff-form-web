@@ -1,0 +1,205 @@
+* {
+  background-color: #0c4f60;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "REM", sans-serif;
+  /* border: 2px solid yellow; */
+}
+
+.body {
+  /* border: 3px solid red; */
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  background-color: #7e9794;
+  margin: 45px auto;
+  padding: 25px;
+  /* border: 3px solid white; */
+  border-radius: 40px;
+  box-shadow: 0 2px 15px 5px #0000005d;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+button {
+  border: none;
+  box-shadow: 0 3px 1px 1px #0000003a;
+}
+
+button:hover {
+  transform: scale(1.04);
+  cursor: pointer;
+}
+
+hr {
+  background-color: white;
+  height: 2px;
+  width: 90%;
+}
+
+input {
+  border: 2px dotted #0c4f60;
+}
+
+.container h1 {
+  background-color: #b03806;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.container h2 {
+  font-size: 35px;
+  background-color: transparent;
+  color: #0c4f60;
+}
+
+.container .page-toggler {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.container .toggler-btn {
+  background-color: #ba8a5a;
+  color: #b03806;
+  padding: 10px;
+  font-size: 25px;
+  width: 50%;
+  border-radius: 35px;
+  text-shadow: 0 1px 1px #0c4f60;
+}
+
+.container .list {
+  color: white;
+  width: 100%;
+  font-size: 25px;
+}
+
+.container .list .item {
+  background-color: #7e9794;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.container .list .option {
+  background-color: #7e9794;
+}
+
+.container .list .names {
+  background-color: #7e9794;
+  width: 200px;
+  padding: 5px 10px;
+}
+
+.container .list .btn-delete {
+  background-color: #7e9794;
+  box-shadow: none;
+  font-size: 30px;
+  color: white;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.container .staff-form {
+  background-color: #7e9794;
+  width: 100%;
+  display: grid;
+  grid-template-areas:
+    "label label label label"
+    ". radioOne radioTwo button";
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.container .staff-form .label-name {
+  background-color: #7e9794;
+  grid-area: label;
+}
+
+.container .staff-form .label-name .staff-input {
+  background-color: #ba8a5a;
+  color: white;
+  width: 100%;
+  padding: 5px 15px;
+}
+.staff-input::placeholder {
+  color: white;
+}
+
+.container .staff-form .radioOne {
+  background-color: transparent;
+  font-size: 25px;
+  color: #0c4f60;
+  grid-area: radioOne;
+}
+
+.container .staff-form .radioTwo {
+  background-color: transparent;
+  font-size: 25px;
+  color: #0c4f60;
+  grid-area: radioTwo;
+}
+
+.container .staff-form .staff-input {
+  font-size: 25px;
+  padding: 10px 25px;
+  background-color: #b03806;
+  border-radius: 15px;
+  grid-area: button;
+}
+
+.container .staff-form .staff-input.enabled {
+  color: white;
+  background-color: #007a12;
+}
+
+.result-row {
+  background-color: #7e9794;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+}
+
+.lines-input {
+  background-color: #ba8a5a;
+  border-radius: 15px;
+  color: white;
+  font-size: 25px;
+
+  width: 100%;
+  padding: 5px 15px;
+}
+
+.label-inputOne {
+  background-color: #7e9794;
+  font-size: 25px;
+}
+
+.label-inputTwo {
+  background-color: #7e9794;
+  font-size: 25px;
+}
+
+.result-row .do-it-btn {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  padding: 10px 25px;
+  border-radius: 15px;
+}

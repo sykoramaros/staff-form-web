@@ -1,0 +1,29 @@
+{
+  "staff": [
+    {
+      "id": 1,
+      "name": "John Smith",
+      "option": "Senior"
+    },
+    {
+      "id": 2,
+      "name": "Alice Johnson",
+      "option": "Senior"
+    },
+    {
+      "id": 3,
+      "name": "Bob Anderson",
+      "option": "Junior"
+    },
+    {
+      "id": 4,
+      "name": "Eva Martinez",
+      "option": "Junior"
+    },
+    {
+      "id": 5,
+      "name": "Chris Davis",
+      "option": "Junior"
+    }
+  ]
+}
