@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/staff-form-web/static/css/main.e0bb2b7b.css",
+    "main.js": "/staff-form-web/static/js/main.b52363c3.js",
+    "index.html": "/staff-form-web/index.html",
+    "main.e0bb2b7b.css.map": "/staff-form-web/static/css/main.e0bb2b7b.css.map",
+    "main.b52363c3.js.map": "/staff-form-web/static/js/main.b52363c3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0bb2b7b.css",
+    "static/js/main.b52363c3.js"
+  ]
+}
